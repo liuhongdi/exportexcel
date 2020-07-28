@@ -9,6 +9,5 @@ import java.util.List;
 @Repository
 @Mapper
 public interface GoodsMapper {
-    Goods selectOneGoods(Long goodsId);
     List<Goods> selectAllGoods();
 }
